@@ -6,7 +6,7 @@ This is guide on how to rice your wm/de in linux.
 
 - WM - stand for window manger. It controls the placement of windows. It may be a floating wm like `openbox` or a tiling wm like i3 or a dynamic tiling wm like `bspwm`.
 
-Read more about number of available wm in the arch wiki. WM are more customizable than DE, and they usually have a configuration file in text.
+Read more about number of available wm in the arch wiki. WM are more customizable than DE, and they usually have a easily modifiable configuration file instead of some GUI configuration manager.
 
 - DE - stands for desktop environment. 
 
@@ -20,7 +20,7 @@ Read more about number of available wm in the arch wiki. WM are more customizabl
 
 ## Step 2 - choose a color-scheme
 
-This is a important step, you have to choose one color scheme which will define how your rice will look.
+This is most important step, you have to choose one color scheme which will define how your rice will look.
 
 *Some* popular color scheme are:
 
@@ -36,7 +36,7 @@ For your rice to be consistent you have to find matching GTK and QT theme.
 
 If you are unable to find a matching GTK them for the color scheme you can:
 - make you own GTK using [phocus](https://github.com/phocus/gtk)
-- use a GUI [oomox](https://github.com/themix-project/oomox)
+- use a GUI [oomox](https://github.com/themix-project/oomox) to create one
 
 For QT apps on WM you can use [qt5ct](https://sourceforge.net/projects/qt5ct/) *this will be availiable in your pacakage manager*. If you are unable to found a matching qt theme, then you can:
 - load a custom colors in `qt5ct`, (in Appearance tab in Palette group, a radio button `Custom`), these are stored in `~/.config/qt5ct/colors`
@@ -72,5 +72,9 @@ Here is list of some applications you may have to rice:
 - discord client -if you use discord
 - telegram-desktop - if you use telegram
 - you should also add some stylesheets to websites you use frequently, use this open-source extension [stylus](https://add0n.com/stylus.html)
+
+## Step 8 - Create a backup of your configurations
+
+You can use github, gitlab, host your own git server, or use some cloud storage for this.
 
 ✨ Keep Ricing
