@@ -38,7 +38,7 @@ If you are unable to find a matching GTK them for the color scheme you can:
 - make you own GTK using [phocus](https://github.com/phocus/gtk)
 - use a GUI [oomox](https://github.com/themix-project/oomox) to create one
 
-For QT apps on WM you can use [qt5ct](https://sourceforge.net/projects/qt5ct/) *this will be availiable in your pacakage manager*. If you are unable to found a matching qt theme, then you can:
+For QT apps on WM you can use [qt5ct](https://sourceforge.net/projects/qt5ct/) *this will be availiable in your package manager*. If you are unable to found a matching qt theme, then you can:
 - load a custom colors in `qt5ct`, (in Appearance tab in Palette group, a radio button `Custom`), these are stored in `~/.config/qt5ct/colors`
 - install [kvantum-manager](https://github.com/tsujan/Kvantum/tree/master/Kvantum) and then select it as `Style:` in `qt5ct`, and then you can use `kvantum` themes too, select them using `kvantum-manager`
 
